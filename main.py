@@ -2,6 +2,8 @@
 # derecha y de, derecha a izquierda por igual
 
 igual, aux = 0, 0
+nombre = int(imput("Ingrese tu nombre: "))
+
 texto=input("Ingrese la palabra que desea evaluar: ")
 
 for ind in reversed(range(0, len(texto))):
@@ -10,6 +12,7 @@ for ind in reversed(range(0, len(texto))):
   aux += 1
 
 if len(texto) == igual:
-  print("El texto es palindromo!")
+  print(nombre, "el texto es palindromo!")
 else:
-  print("El texto no es palindromo!")
+  print(nombre, "el texto no es palindromo!")
+  
